@@ -1,16 +1,23 @@
-# timer
+# 📌 To-Do List App 📝 (Flutter + BLoC)
 
-A new Flutter project.
+A **modern To-Do List app** that allows users to **add tasks**, displays a **countdown timer**, and **automatically removes tasks after 60 seconds**. Built with **Flutter & BLoC** for smooth state management. 🚀✨  
 
-## Getting Started
+## ✨ Features  
+✅ Add new tasks dynamically 📝  
+✅ Countdown timer beside each task ⏳  
+✅ Auto-delete tasks after 60 seconds ⌛  
+✅ Modern UI with smooth animations 🎨  
+✅ State management using **BLoC** ⚡  
 
-This project is a starting point for a Flutter application.
+## 🛠️ Technologies Used  
+- **Flutter** (Dart)  
+- **BLoC (Business Logic Component)** for state management  
+- **percent_indicator** for progress bars  
+- **Animated UI** for a better user experience  
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Dependencies  
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  percent_indicator: ^4.2.2
